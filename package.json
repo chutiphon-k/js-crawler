@@ -1,0 +1,21 @@
+{
+  "name": "js-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "start": "node ./build/index.js "
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "backpack-core": "^0.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^4.0.2",
+    "lodash": "^4.17.4",
+    "robotto": "^1.0.16",
+    "shelljs": "^0.7.8",
+    "url-parse": "^1.1.9"
+  }
+}
